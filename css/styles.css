@@ -1,0 +1,62 @@
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'poppins', sans-serif;
+    font-size: 0.88rem;
+    background-color: var(--color-background);
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: var(--color-dark);
+}
+a {
+    color: var(--color-dark);
+    text-transform: capitalize;
+}
+img {
+    display: block;
+    width: 100%;
+}
+h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 0.87rem;
+}
+h4 {
+    font-size: 0.8rem;
+}
+h5 {
+    font-size: 0.77rem;
+}
+small {
+    font-size: 0.75rem;
+}
+.profile-picture {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+* {
+    padding: unset;
+    margin: unset;
+    appearance: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.hero {
+    width: 100%;
+    min-height: 600%;
+    background-color: black;
+}
