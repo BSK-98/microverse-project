@@ -57,6 +57,60 @@ small {
 }
 .hero {
     width: 100%;
-    min-height: 600%;
-    background-color: black;
+    min-height: 600px;
+    background: linear-gradient(to bottom right, #918e8e85 40%, #066fd194 30%, #29080886 30%), url('../images/istockphoto-1145940285-612x612.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 2.7rem;
+}
+.hero .search {
+    width: 50%;
+    padding: 1rem 2rem;
+    background-color: #0000009f;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.hero .search input {
+    padding: 0.2rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-indent: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.d-flex {
+    display: flex;
+    padding: 1rem;
+}
+.d-flex button:hover {
+    box-shadow: unset;
+}
+.d-flex button {
+    transition: box-shadow 300ms linear ;
+    background: rgb(13, 144, 196);
+    border: none;
+    outline: none;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    color: azure;
+    text-transform: capitalize;
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    box-shadow: 0 2rem 3rem rgba(94, 89, 89, 0.753);
+}
+.d-flex .jc-fe {
+    justify-content: flex-end;
 }
