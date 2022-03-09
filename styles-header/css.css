@@ -1,0 +1,31 @@
+#header {
+    width: 100vw;
+    padding: 1.2rem 2rem;
+    background-color: #00001a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header h1 {
+    color: whitesmoke;
+}
+#nav-bar {
+    margin-right: 2rem;
+    padding: 0 2rem;
+    background-color: #00001a;
+}
+#nav-bar a{
+    text-transform: capitalize;
+    padding: 1.6rem 1.1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 300ms ease-in-out;
+}
+#nav-bar a:hover {
+    background: rgb(2, 23, 87);
+}
+* {
+    margin: unset;
+    padding: unset;
+}
