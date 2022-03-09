@@ -50,6 +50,8 @@ small {
 }
 * {
     padding: unset;
+    text-decoration: none;
+    list-style: none;
     margin: unset;
     appearance: none;
     box-sizing: border-box;
@@ -57,7 +59,7 @@ small {
 }
 .hero {
     width: 100%;
-    min-height: 600px;
+    min-height: 650px;
     background: linear-gradient(to bottom right, #918e8e85 40%, #066fd194 30%, #29080886 30%), url('../images/istockphoto-1145940285-612x612.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -94,6 +96,9 @@ small {
     display: flex;
     padding: 1rem;
 }
+.jc-sb {
+    justify-content: space-around;
+}
 .d-flex button:hover {
     box-shadow: unset;
 }
@@ -110,7 +115,84 @@ small {
     margin-top: 4rem;
     font-size: 1.4rem;
     box-shadow: 0 2rem 3rem rgba(94, 89, 89, 0.753);
+    cursor: pointer;
 }
 .d-flex .jc-fe {
     justify-content: flex-end;
+}
+
+.price-card {
+    width: 27%;
+    background-color: white;
+    border-radius: 1rem 3.5rem 0 1rem;
+    padding: 0 1.2rem; 
+    box-shadow: 0 2rem 3rem rgba(94, 89, 89, 0.753);
+    transition: all 300ms linear ;
+    margin: 2rem a;
+    overflow: hidden;
+}
+
+.price-card h2{
+    text-transform: capitalize;
+}
+.card-header {
+    background: royalblue;
+    padding: 1.2rem;
+    text-align: center;
+    color: wheat;
+}
+
+.price-card:hover {
+    transform: scale(1.1);
+    box-shadow: unset;
+}
+
+.card-body {
+    padding: 1.2rem;
+    text-transform: capitalize;
+    align-items: center;
+    width: 60%;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+.card-b {
+    padding: 1.2rem;
+    text-transform: capitalize;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+.card-body button {
+    padding: 0.6rem 1.1rem;
+    width: 100%;
+    /* background-color: ; */
+}
+.ai-c {
+    align-items: center;
+}
+.anchors {
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.copyright {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+.anchors a {
+    color: whitesmoke;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+}
+footer {
+    width: 100%;
+    padding: 3rem 3rem 0rem 3rem;
+    background-color: #00001a;
+    margin-top: 3rem;
 }
